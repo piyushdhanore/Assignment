@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>facebook login</title>
+	<style type="text/css">
+		.mdiv
+		{
+			height: 100vh;
+			width: 100%;
+			background-color: #F0F2F5;
+/*			background-size: cover;*/
+			position: fixed;
+			top: 0px;
+			left: 0px;
+		}
+		h2
+		{
+			color: #0766FF;
+			font-family: 'Fira Sans Extra Condensed', sans-serif;
+			font-size: 50px;
+		}
+		.tab1
+		{
+			margin: 10% 25%;
+			width: 600px;
+		}
+		.char1
+		{
+
+			box-shadow: 0px 0px 5px lightgray;
+			border-radius: 10px;
+			background-color: white;
+			width: 300px;
+			height: 30px;
+		}
+		.but1
+		{
+			background-color:#0766FF ;
+			height: 50px;
+			width: 100%;
+			border-radius: 5px;
+			color: white;
+			border: none;
+			font-weight: bolder;
+			font-size: 20px;
+		}
+		.but2
+		{
+			background-color:#42B72A ;
+			height: 50px;
+			width: 60%;
+			border-radius: 5px;
+			color: white;
+			text-align: center;
+			margin-left: 60px;
+			border: none;
+			font-weight: bolder;
+			font-size: 15px;
+		}
+		.txt
+		{
+			width: 100%;
+			height: 40px;
+			border: 1px solid #ccc;
+			border-radius: 4px;
+			color: black;
+		}
+		a
+		{
+			text-decoration: none;
+			color: #6B83E3;
+			position: relative;
+			left: 80px;
+			bottom: 10px;
+		}
+		input[type="button"]:hover
+		{
+			cursor: pointer;
+		}
+	</style>
+</head>
+<body>
+<div class="mdiv">
+	<div class="tab1" >
+		<table width="800px" cellspacing="0px" cellpadding="20px">
+			<tr>
+				<td>
+					<h2>facebook</h2>
+					<h3>Connect with friends and the world around you on Facebook</h3>
+				</td>
+				<td width="300px" class="char1"> 
+				<input class="txt" type="text" name="username" placeholder="  Email address or phone number"><br><br>
+				<input class="txt" type="Password" name="pwd" placeholder="  Password"><br><br>
+				<input class="but1" type="button" name="login" value="Log in"><br><br>
+				<a href="#"> Forgotten password?</a>
+				<hr>
+				<input class="but2" type="button" name="create account" value="Create New Account">
+				</td>
+			</tr>
+		</table>	
+	</div>
+</div>
+</body>
+</html>
